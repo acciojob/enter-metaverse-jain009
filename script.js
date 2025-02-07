@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	let enterButton = document.getElementById("enterBtn");
 
 	enterButton.addEventListner("lick", () => {
-		statusElement.innerHtml() = "<h1>Entered Metaverse</h1>"
+		statusElement.innerHtml() = "<h1>Entered the Metaverse</h1>"
 	});
 });
