@@ -1,9 +1,9 @@
 //your JS code here. If required.
-document.addEventListener("DomContenedLoaded", () => {
-	let statusElement = documnet.getEelmentById("statusE");
+document.addEventListener("DOMContentLoaded", () => {
+	let statusElement = documnet.getEelmentById("status");
 	let enterButton = document.getElementById("enterBtn");
 
-	enterButton.addEventListner("Click", () => {
+	enterButton.addEventListner("lick", () => {
 		statusElement.innerHtml() = "<h1>Entered Metaverse</h1>"
 	});
 });
