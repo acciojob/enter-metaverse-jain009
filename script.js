@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	let statusElement = documnet.getEelmentById("status");
 	let enterButton = document.getElementById("enterBtn");
 
-	enterButton.addEventListner("lick", () => {
-		statusElement.innerHtml() = "<h1>Entered the Metaverse</h1>"
+	enterButton.addEventListner("click", () => {
+		statusElement.innerHtml() = "<p>Entered the Metaverse</p>"
 	});
 });
